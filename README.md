@@ -3,10 +3,10 @@
 This tool has been used to establish the digital twin of a real-world urban intersection in Germany, as described in our paper. If you use this tool in your research paper or project, please cite us as follows:
 ```bibtex
 @article{yourpaper2024,
-  author    = {Runhao Zhou, Eike Schulz, Maria Arndt, Meng Wang},
-  title     = {Your Paper Title},
+  author    = {Runhao Zhou, Sebastian Pape, Eike Schulz, Maria Arndt, Meng Wang},
+  title     = {High-Fidelity and Scalable Digital Twin Platform for Urban Traffic Management and Control Policy Evaluation: A Case Deployment in Leipzig, Germany  },
   journal   = {Journal Name},
-  year      = {2024},
+  year      = {2026},
   volume    = {1},
   number    = {1},
   pages     = {1--10},
