@@ -31,7 +31,6 @@ If you have difficulties configuring LISA+ SUMO configuration files, or if you a
 
 This project is licensed under the [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-本项目采用知识共享署名-非商业性使用 4.0 国际许可协议 [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)。
 
 Dieses Projekt ist lizenziert unter einer Creative Commons Namensnennung-Nicht kommerziell 4.0 International Lizenz [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
 
