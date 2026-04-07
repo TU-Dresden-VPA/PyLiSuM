@@ -1,6 +1,6 @@
 # PyLiSuM
 
-This middleware enables the establishment of a high-fidelity digital twin for traffic signal control at real-world urban intersections in the DACH region, where LISA+ provisioning files are deployed. The following software and publications form the foundation of this highly functional and extensible middleware:
+This middleware enables a high-fidelity digital twin for traffic signal control at real-world urban intersections in the DACH region, where LISA+ provisioning files are deployed. The following software and publications form the foundation of this highly functional and extensible middleware:
 
 1. [LiSuM](https://sumo.dlr.de/docs/Tools/LiSuM.html)
 2. [LemgoRL](https://github.com/RL-INA/LemgoRL)
