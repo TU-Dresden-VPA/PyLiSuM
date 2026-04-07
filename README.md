@@ -16,6 +16,9 @@ To **protect intellectual property rights**, we are also unable to provide the O
 
 If you encounter difficulties during configuration, or if you are interested in integrating PyLiSuM with your own signal control algorithms in SUMO simulations, limited voluntary consulting support can be provided.
 
+---
+
+
 ## License
 
 This project is licensed under the 
@@ -32,7 +35,6 @@ This work is part of the [ABSOLUT II](https://absolut-project.com/) project (*Au
 
 We gratefully acknowledge the consultation provided by Dr. Arthur Müller (Fraunhofer IOSB-INA).
 
---------
 
 
 
