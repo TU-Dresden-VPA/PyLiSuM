@@ -1,8 +1,8 @@
 # PyLiSuM
 
-PyLiSuM is a Python-based middleware tool for executing DACH-style [LISA+<sup>®</sup>](https://www.schlothauer.de/en/software-lisa) traffic signal control provisioning files in SUMO simulations.
+PyLiSuM is a Python-based middleware tool for executing DACH-style <a href="https://www.schlothauer.de/en/software-lisa" target="_blank" rel="noopener noreferrer">LISA+<sup>®</sup></a> traffic signal control provisioning files in SUMO simulations.
 
-Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infrastructure", within the project [ABSOLUT II](https://absolut-project.com/), "Autonomous On-Demand Shuttles Providing Individual Public Transport Services for the Suburban Areas of Leipzig". ABSOLUT II is funded by the Bundesministerium für Forschung, Technologie und Raumfahrt der Bundesrepublik Deutschland (BMFTR; Federal Ministry of Research, Technology and Space of Germany) under Grant No. 01ME23001B.
+Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infrastructure", within the project <a href="https://absolut-project.com/" target="_blank" rel="noopener noreferrer">ABSOLUT II</a>, "Autonomous On-Demand Shuttles Providing Individual Public Transport Services for the Suburban Areas of Leipzig". ABSOLUT II is funded by the Bundesministerium für Forschung, Technologie und Raumfahrt der Bundesrepublik Deutschland (BMFTR; Federal Ministry of Research, Technology and Space of Germany) under Grant No. 01ME23001B.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infras
 
 ### Java 8 Installation
 
-Java 8 for Windows can be downloaded from the [Adoptium Temurin releases page](https://adoptium.net/temurin/releases?version=8&os=any&arch=any).
+Java 8 for Windows can be downloaded from the <a href="https://adoptium.net/temurin/releases?version=8&os=any&arch=any" target="_blank" rel="noopener noreferrer">Adoptium Temurin releases page</a>.
 
 After downloading:
 
@@ -74,7 +74,7 @@ All raw traffic data and files were processed within the framework of the ABSOLU
 
 ## Third-Party Components
 
-This repository includes OMLFGServer binaries required for executing LISA+<sup>®</sup> signal control logic. These files were obtained from the public [maxidigital/LisumExamples](https://github.com/maxidigital/LisumExamples/tree/master) repository, which is referenced from the SUMO documentation.
+This repository includes OMLFGServer binaries required for executing LISA+<sup>®</sup> signal control logic. These files were obtained from the public <a href="https://github.com/maxidigital/LisumExamples/tree/master" target="_blank" rel="noopener noreferrer">maxidigital/LisumExamples</a> repository, which is referenced from the SUMO documentation.
 
 OMLFGServer is third-party software and is not developed or maintained by the PyLiSuM project team. All rights in OMLFGServer and related binary files remain with their respective owners. PyLiSuM uses OMLFGServer only as an external runtime component.
 
