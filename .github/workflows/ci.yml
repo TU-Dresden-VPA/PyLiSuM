@@ -11,6 +11,8 @@ jobs:
   python-checks:
     name: Python checks
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
       - name: Check out repository
