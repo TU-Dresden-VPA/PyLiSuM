@@ -1,6 +1,6 @@
 # PyLiSuM
 
-PyLiSuM is a Python-based middleware tool for executing DACH-style [LISA+®](https://www.schlothauer.de/en/software-lisa) traffic signal control provisioning files in SUMO simulations.
+PyLiSuM is a Python-based middleware tool for executing DACH-style [LISA+<sup>®</sup>](https://www.schlothauer.de/en/software-lisa) traffic signal control provisioning files in SUMO simulations.
 
 Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infrastructure", within the project [ABSOLUT II](https://absolut-project.com/), "Autonomous On-Demand Shuttles Providing Individual Public Transport Services for the Suburban Areas of Leipzig". ABSOLUT II is funded by the Bundesministerium für Forschung, Technologie und Raumfahrt der Bundesrepublik Deutschland (BMFTR; Federal Ministry of Research, Technology and Space of Germany) under Grant No. 01ME23001B.
 
@@ -66,7 +66,7 @@ This demonstrates the simulation workflow using PyLiSuM.
 
 ## Notes
 
-Simulating multiple intersections is supported. Currently, LISA+ files are included for only one intersection. Additional provisioning files must be provided by the user for multi-intersection SUMO simulations.
+Simulating multiple intersections is supported. Currently, LISA+<sup>®</sup> files are included for only one intersection. Additional provisioning files must be provided by the user for multi-intersection SUMO simulations.
 
 All raw traffic data and files were processed within the framework of the ABSOLUT II project, and are owned and prepared by the Mobilitäts- und Tiefbauamt (MTA; Mobility and Civil Engineering Office) of the City of Leipzig. Therefore, they may be removed from this repository in the future without notice.
 
@@ -74,7 +74,7 @@ All raw traffic data and files were processed within the framework of the ABSOLU
 
 ## Third-Party Components
 
-This repository includes OMLFGServer binaries required for executing LISA+ signal control logic. These files were obtained from the public [maxidigital/LisumExamples](https://github.com/maxidigital/LisumExamples/tree/master) repository, which is referenced from the SUMO documentation.
+This repository includes OMLFGServer binaries required for executing LISA+<sup>®</sup> signal control logic. These files were obtained from the public [maxidigital/LisumExamples](https://github.com/maxidigital/LisumExamples/tree/master) repository, which is referenced from the SUMO documentation.
 
 OMLFGServer is third-party software and is not developed or maintained by the PyLiSuM project team. All rights in OMLFGServer and related binary files remain with their respective owners. PyLiSuM uses OMLFGServer only as an external runtime component.
 
