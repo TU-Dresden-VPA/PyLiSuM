@@ -219,9 +219,35 @@ class LisaInterfaceManager:
             self.service_endpoints["message"],
             put_message_body,
         )
-        logger.debug("<Put Message> Request body: %s", put_message_body)
-        logger.debug("<Put Message> Response received: %s", put_message_response)
-        return self._parse_put_message_response(put_message_response, controller_unit)
+        logger.info(
+            "<PutMessage> node=%s sim_time=%s msg_type=%s detector_state=%s pt_telegram=%s request=%s",
+            node_id,
+            sim_time,
+            msg_type,
+            detector_state,
+            pt_telegram,
+            put_message_body,
+        )
+        logger.info(
+            "<PutMessageResponse> node=%s sim_time=%s response=%s",
+            node_id,
+            sim_time,
+            put_message_response,
+        )
+
+        parsed_response = self._parse_put_message_response(put_message_response, controller_unit)
+        sumo_signals_str, signal_states_string, phases_string, output_string, ap_string = parsed_response
+        logger.info(
+            "<SignalStates> node=%s sim_time=%s lisa_signal_states=%s sumo_signal_state=%s phases=%s output=%s ap=%s",
+            node_id,
+            sim_time,
+            signal_states_string,
+            sumo_signals_str,
+            phases_string,
+            output_string,
+            ap_string,
+        )
+        return parsed_response
 
     def _select_java_executable(self, invisible):
         java_version_output = ""
