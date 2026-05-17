@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/TU-Dresden-VPA/PyLiSuM/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Dresden-VPA/PyLiSuM/actions/workflows/ci.yml)
 
-PyLiSuM is a Python-based middleware tool for running DACH-style <a href="https://www.schlothauer.de/en/software-lisa" target="_blank" rel="noopener noreferrer">LISA+<sup>®</sup></a> traffic signal control programs in SUMO simulations.
+PyLiSuM is a Python-based middleware tool for running DACH-style <a href="https://www.schlothauer.de/en/software-lisa" target="_blank" rel="noopener noreferrer">LISA+<sup>®</sup></a> traffic signal control provisioning files in SUMO simulations.
 
 Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infrastructure", within the project <a href="https://absolut-project.com/" target="_blank" rel="noopener noreferrer">ABSOLUT II</a>, "Autonomous On-Demand Shuttles Providing Individual Public Transport Services for the Suburban Areas of Leipzig". ABSOLUT II is funded by the Bundesministerium für Forschung, Technologie und Raumfahrt der Bundesrepublik Deutschland (BMFTR; Federal Ministry of Research, Technology and Space of Germany) under Grant No. 01ME23001B.
 
