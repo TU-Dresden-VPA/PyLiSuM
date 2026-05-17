@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  python-checks:
+    name: Python checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Compile Python files
+        run: |
+          python -m py_compile \
+            example_simulation.py \
+            PyLiSuM/__init__.py \
+            PyLiSuM/middleware.py
+
+      - name: Validate configuration and middleware setup
+        shell: python
+        run: |
+          from pathlib import Path
+
+          import yaml
+
+          from PyLiSuM.middleware import ControllerUnit, LisaInterfaceManager
+
+          config_path = Path("intersection_conf.yaml")
+          with config_path.open(encoding="utf-8") as config_file:
+              config = yaml.safe_load(config_file)
+
+          assert isinstance(config, dict), "intersection_conf.yaml must contain a mapping"
+          assert "103" in config, "Expected junction configuration '103'"
+
+          manager = LisaInterfaceManager(
+              host="localhost",
+              server_path="OMLFGServer/OmlFgServer.jar",
+              lisum_data_dir="LISA_Files/z1_fg103",
+              lisa_config=config,
+          )
+
+          node_config = manager._get_controller_config(103)
+          controller_unit = ControllerUnit(z_nr=1, f_nr=103, sumo_tl_id="103")
+          manager._load_signal_mapping(controller_unit, node_config)
+          manager._load_control_options(controller_unit, node_config)
+
+          assert manager.ports["103"] == node_config["port"]
+          assert controller_unit.control_options["controlMode"] == node_config["control_options"]["controlMode"]
+          assert controller_unit.callback_cycle_interval_sec >= 1
+          assert controller_unit.sgr_link_indices_dict
+
+          print("Configuration and middleware sanity checks passed.")
