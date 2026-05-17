@@ -1,0 +1,75 @@
+PyLiSuM Academic Non-Commercial License
+Version 1.0
+
+Copyright (c) 2026 Chair of Traffic Process Automation,
+Technische Universität Dresden
+
+Permission is hereby granted, free of charge, to any individual or
+organization to use, copy, modify, and distribute this software and its
+documentation solely for academic, research, teaching, evaluation, or
+other non-commercial purposes, subject to the terms below.
+
+1. Permitted Use
+
+You may use the software for non-commercial academic or research purposes,
+including coursework, theses, publications, reproducible research,
+experiments, demonstrations, and internal academic evaluation.
+
+2. Distribution and Modification
+
+You may distribute copies or modified versions of the software only if:
+
+- this license is included with all copies or substantial portions of the
+  software;
+- copyright notices and attribution notices are preserved;
+- modified versions clearly state that changes were made; and
+- the distributed software remains subject to this license.
+
+3. Commercial Use Prohibited
+
+Commercial use is not permitted without prior written permission from the
+copyright holder(s). Commercial use includes, without limitation:
+
+- selling, licensing, sublicensing, or renting the software;
+- using the software to provide paid services, consulting, software-as-a-
+  service, or other commercial offerings;
+- integrating the software into commercial products or proprietary
+  commercial workflows;
+- using the software for internal business operations of a for-profit
+  organization; and
+- using the software to obtain commercial advantage or monetary
+  compensation.
+
+For commercial licensing, contact the copyright holder(s).
+
+4. Third-Party Materials
+
+This license applies only to software and documentation for which the
+Chair of Traffic Process Automation, Technische Universität Dresden, has
+the right to grant this license. It does not
+grant rights to third-party materials, data, provisioning files, libraries,
+trademarks, or other content owned by others. Such materials remain subject
+to their own licenses, terms, or permissions.
+
+5. No Trademark or Patent License
+
+No trademark rights are granted under this license. No patent rights are
+granted except to the extent required to use the software as permitted by
+this license.
+
+6. Termination
+
+Any rights granted under this license terminate automatically if you breach
+its terms. Upon termination, you must stop using and distributing the
+software and destroy any copies in your possession or control, unless the
+copyright holder(s) provide written permission otherwise.
+
+7. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+DEALINGS IN THE SOFTWARE.
