@@ -1,6 +1,6 @@
 # PyLiSuM
 
-PyLiSuM is a Python-based middleware tool for executing DACH-style LISA+ traffic signal control provisioning files in SUMO simulations.
+PyLiSuM is a Python-based middleware tool for executing DACH-style [LISA+®](https://www.schlothauer.de/en/software-lisa) traffic signal control provisioning files in SUMO simulations.
 
 Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infrastructure", within the project [ABSOLUT II](https://absolut-project.com/), "Autonomous On-Demand Shuttles Providing Individual Public Transport Services for the Suburban Areas of Leipzig". ABSOLUT II is funded by the Bundesministerium für Forschung, Technologie und Raumfahrt der Bundesrepublik Deutschland (BMFTR; Federal Ministry of Research, Technology and Space of Germany) under Grant No. 01ME23001B.
 
