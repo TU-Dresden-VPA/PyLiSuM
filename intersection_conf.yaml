@@ -1,0 +1,200 @@
+"103":
+  id:
+    lisa_id: z1_fg103
+    junction_id_in_sumo: 103
+
+  control_options:
+    controlMode: 9
+    sp: 7
+    va: 2
+    iv: 2
+    oev: 2
+    coordinated: 0
+
+  port: 9091
+  phase_number: 9
+
+  signals:
+    lisa_sgr_seq:
+      - K1
+      - K3
+      - K4
+      - K5
+      - KRi1
+      - KRi3
+      - F1
+      - F2
+      - F3
+      - F4
+      - F5
+      - F6
+      - FTV1
+      - FTV2
+      - FTV3
+      - FTV4
+      - FTV5
+      - FTV6
+      - H4/1
+      - H6/1
+      - B1
+
+    lisa_sumo_mapping:
+      K1: 0,1,2,3
+      K3: 4,5,6
+      K4: 7,8
+      K5: 9
+      KRi1: -1
+      KRi3: -1
+      F1: 15
+      F2: 10
+      F3: 11
+      F4: 12
+      F5: 13
+      F6: 14
+      FTV1: -1
+      FTV2: -1
+      FTV3: -1
+      FTV4: -1
+      FTV5: -1
+      FTV6: -1
+      H4/1: -1
+      H6/1: -1
+      B1: -1
+
+  phase_cannot_configured_in_pylisum:
+    "2": "GGrrrrrGGGrrrrrr"
+    "7": "GGGGrrrrrrrrrrrr"
+
+  detectors:
+    - "IS11"
+    - "IS12"
+    - "IS13"
+    - "IS14"
+    - "IS21"
+    - "IS31"
+    - "IS32"
+    - "IS41"
+    - "IS42"
+    - "IS51"
+    - "IS52"
+    - "HT3/1"
+    - "HT3/2"
+    - "HT4/1"
+    - "HT4/2"
+    - "HT5/1"
+    - "HT5/2"
+    - "HT6/1"
+    - "HT6/2"
+    - "BT1/1"
+    - "BT1/2"
+    - "BT2/1"
+    - "BT2/2"
+    - "BT3/1"
+    - "BT3/2"
+    - "BT4/1"
+    - "BT4/2"
+    - "BT5/1"
+    - "BT5/2"
+    - "BT6/1"
+    - "BT6/2"
+    - "SK1"
+    - "DMP11"
+    - "DMP12"
+    - "DMP13"
+    - "DMP21"
+    - "DMP22"
+    - "DMP31"
+    - "DMP32"
+
+  crossing_ped_button_mapping:
+    ":103_c0":
+      - "BT2/1"
+      - "BT2/2"
+    ":103_c1":
+      - "HT3/1"
+      - "HT3/2"
+      - "BT3/1"
+      - "BT3/2"
+    ":103_c2":
+      - "HT4/1"
+      - "HT4/2"
+      - "BT4/1"
+      - "BT4/2"
+    ":103_c3":
+      - "HT5/1"
+      - "HT5/2"
+      - "BT5/1"
+      - "BT5/2"
+    ":103_c4":
+      - "HT6/1"
+      - "HT6/2"
+      - "BT6/1"
+      - "BT6/2"
+    ":103_c5":
+      - "BT1/1"
+      - "BT1/2"
+
+  ped_button_walkingarea_mapping:
+    "BT1/1": ":103_w2"
+    "BT1/2": ":103_w3"
+    "BT2/1": ":103_w3"
+    "BT2/2": ":103_w0"
+    "HT3/1": ":103_w0"
+    "HT3/2": ":103_w1"
+    "HT4/1": ":103_w4"
+    "HT4/2": ":103_w1"
+    "HT5/1": ":103_w1"
+    "HT5/2": ":103_w5"
+    "HT6/1": ":103_w5"
+    "HT6/2": ":103_w2"
+    "BT3/1": ":103_w0"
+    "BT3/2": ":103_w1"
+    "BT4/1": ":103_w4"
+    "BT4/2": ":103_w1"
+    "BT5/1": ":103_w1"
+    "BT5/2": ":103_w5"
+    "BT6/1": ":103_w5"
+    "BT6/2": ":103_w2"
+
+  digital_meldepunkt_an:
+    - "DMP11"
+    - "DMP21"
+    - "DMP31"
+
+  digital_meldepunkt_door:
+    - "DMP12"
+
+  digital_meldepunkt_ab:
+    - "DMP13"
+    - "DMP22"
+    - "DMP32"
+
+  telegrams:
+    "Shuttle_K1_AN": 63010
+    "Shuttle_K1_Door": 63011
+    "Shuttle_K1_AB": 63012
+    "Shuttle_K3_AN": 63013
+    "Shuttle_K3_AB": 63014
+    "Bus_K1_AN": 33
+    "Bus_K1_Door": 34
+    "Bus_K1_AB": 35
+    "Bus_K3_AN": 36
+    "Bus_K3_AB": 37
+    "Bus_K5_AN": 38
+    "Bus_K5_AB": 39
+
+  r09_telegram_an_lanes:
+    - "E4_0"
+    - "E20_0"
+    - "E16_0"
+
+  r09_telegram_door_busstops: "bs_1"
+
+  r09_telegram_ab_lanes:
+    - "E12_1"
+    - "E21_1"
+
+  an_lane_signal_mapping:
+    "E4_0": "K3"
+    "E20_0": "K1"
+    "E16_0": "K5"

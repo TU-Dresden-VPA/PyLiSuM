@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-30 18:42:53 by Eclipse SUMO netedit Version 1.21.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bus" length="12.00" minGap="2.50" maxSpeed="16.67" vClass="bus" color="red" carFollowModel="EIDM" decel="1.8" jmDriveAfterYellowTime="1.0"/>
+    <vType id="car" length="5.50" minGap="2.00" maxSpeed="19.44" vClass="passenger" color="blue" carFollowModel="EIDM" jmDriveAfterYellowTime="1.5"/>
+    <vType id="ped" maxSpeed="1.8" speedFactor="normc(1.00,0.30,0.20,2.00)" vClass="pedestrian"/>
+    <vType id="shuttle" length="6.50" minGap="2.50" maxSpeed="16.67" vClass="delivery" color="white" carFollowModel="EIDM"/>
+    <vType id="truck" length="13.00" minGap="2.00" maxSpeed="19.44" vClass="truck" color="255,192,203" carFollowModel="EIDM" jmDriveAfterYellowTime="1.5"/>
+    <!-- Routes -->
+    <route id="r_0" edges="E4 E5 E19 E1 E2"/>
+    <route id="r_1" edges="E4 E5 E21 E7 E9 E31"/>
+    <route id="r_2" edges="E20 E10 E22 E23 E19 E1 E2"/>
+    <route id="r_3" edges="E20 E10 E22 E23 E12 E13 E14"/>
+    <route id="r_4" edges="E15 E17 E18 E12 E13 E14"/>
+    <route id="r_5" edges="E15 E17 E18 E21 E7 E9 E31"/>
+    <route id="r_6" edges="E16 E17 E18 E21 E7 E9 E31"/>
+    <route id="r_7" edges="E16 E17 E18 E12 E13 E14"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <personFlow id="personFlow_0" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E5" to="E12"/>
+    </personFlow>
+    <personFlow id="personFlow_1" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E5" to="E25"/>
+    </personFlow>
+    <personFlow id="personFlow_10" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E23" to="E24"/>
+    </personFlow>
+    <personFlow id="personFlow_11" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E24" to="E25"/>
+    </personFlow>
+    <personFlow id="personFlow_12" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E24" to="E23"/>
+    </personFlow>
+    <personFlow id="personFlow_13" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E25" to="E5"/>
+    </personFlow>
+    <personFlow id="personFlow_14" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E25" to="E21"/>
+    </personFlow>
+    <personFlow id="personFlow_15" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E25" to="E24"/>
+    </personFlow>
+    <personFlow id="personFlow_2" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E5" to="E23"/>
+    </personFlow>
+    <personFlow id="personFlow_3" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E21" to="E12"/>
+    </personFlow>
+    <personFlow id="personFlow_4" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E21" to="E25"/>
+    </personFlow>
+    <personFlow id="personFlow_5" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E21" to="E23"/>
+    </personFlow>
+    <personFlow id="personFlow_6" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E12" to="E5"/>
+    </personFlow>
+    <personFlow id="personFlow_7" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E12" to="E21"/>
+    </personFlow>
+    <personFlow id="personFlow_8" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E23" to="E5"/>
+    </personFlow>
+    <personFlow id="personFlow_9" type="ped" begin="25.00" end="46800.00" probability="0.00200000000000000004">
+        <walk from="E23" to="E21"/>
+    </personFlow>
+    <flow id="flow_0" type="car" begin="25.00" departLane="best" route="r_0" end="46800.00" period="exp(0.06)"/>
+    <flow id="flow_1" type="car" begin="25.00" departLane="best" route="r_1" end="46800.00" period="exp(0.02)"/>
+    <flow id="flow_2" type="car" begin="25.00" departLane="best" route="r_2" end="46800.00" period="exp(0.03)"/>
+    <flow id="flow_3" type="car" begin="25.00" departLane="best" route="r_3" end="46800.00" period="exp(0.04)"/>
+    <flow id="flow_4" type="car" begin="25.00" departLane="best" route="r_4" end="46800.00" period="exp(0.14)"/>
+    <flow id="flow_5" type="car" begin="25.00" departLane="best" route="r_5" end="46800.00" period="exp(0.05)"/>
+    <flow id="flow_6" type="car" begin="25.00" departLane="best" route="r_6" end="46800.00" period="exp(0.005)"/>
+    <flow id="flow_7" type="car" begin="25.00" departLane="best" route="r_7" end="46800.00" period="exp(0.01)"/>
+    <flow id="truck_flow_0" type="truck" begin="25.00" departLane="best" route="r_0" end="46800.00" period="exp(0.0060)"/>
+    <flow id="truck_flow_1" type="truck" begin="25.00" departLane="best" route="r_1" end="46800.00" period="exp(0.0020)"/>
+    <flow id="truck_flow_2" type="truck" begin="25.00" departLane="best" route="r_2" end="46800.00" period="exp(0.0030)"/>
+    <flow id="truck_flow_3" type="truck" begin="25.00" departLane="best" route="r_3" end="46800.00" period="exp(0.0040)"/>
+    <flow id="truck_flow_4" type="truck" begin="25.00" departLane="best" route="r_4" end="46800.00" period="exp(0.0140)"/>
+    <flow id="truck_flow_5" type="truck" begin="25.00" departLane="best" route="r_5" end="46800.00" period="exp(0.0010)"/>
+    <flow id="truck_flow_6" type="truck" begin="25.00" departLane="best" route="r_6" end="46800.00" period="exp(0.0005)"/>
+    <flow id="truck_flow_7" type="truck" begin="25.00" departLane="best" route="r_7" end="46800.00" period="exp(0.0010)"/>
+    <flow id="shuttle_flow_0" type="shuttle" begin="210.00" departLane="best" route="r_1" end="46800.00" period="3600.00"/>
+    <!-- Demo-Busse: fruehe Abfahrten fuer Prioritaets-Test -->
+    <vehicle id="bus_demo_k1_1" type="bus" depart="300.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_demo_k3_1" type="bus" depart="450.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_demo_k1_2" type="bus" depart="600.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_demo_k3_2" type="bus" depart="900.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_84_0608" type="bus" depart="22020.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="13"/>
+    </vehicle>
+    <flow id="shuttle_flow_1" type="shuttle" begin="22200.00" departLane="best" arrivalLane="1" route="r_3" end="46800.00" period="3600.00"/>
+    <vehicle id="bus_84_0618" type="bus" depart="22620.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="18"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_0628" type="bus" depart="23220.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_0637" type="bus" depart="23760.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_84_0638" type="bus" depart="23820.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_0648" type="bus" depart="24420.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_84_0648" type="bus" depart="24420.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="11"/>
+    </vehicle>
+    <vehicle id="bus_84_0708" type="bus" depart="25620.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="13"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_0713" type="bus" depart="25920.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_0718" type="bus" depart="26220.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_84_0718" type="bus" depart="26220.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="14"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_0736" type="bus" depart="27300.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_84_0738" type="bus" depart="27420.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_0748" type="bus" depart="28020.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_84_0748" type="bus" depart="28020.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="11"/>
+    </vehicle>
+    <vehicle id="bus_84_0808" type="bus" depart="29220.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="13"/>
+    </vehicle>
+    <vehicle id="bus_196_hbf_0812" type="bus" depart="29460.00" arrivalLane="1" route="r_2">
+        <stop busStop="bs_1" duration="14"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_0813" type="bus" depart="29520.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_0836" type="bus" depart="30900.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_84_0838" type="bus" depart="31020.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_0848" type="bus" depart="31620.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_84_0908" type="bus" depart="32820.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="11"/>
+    </vehicle>
+    <vehicle id="bus_196_hbf_0912" type="bus" depart="33060.00" arrivalLane="1" route="r_2">
+        <stop busStop="bs_1" duration="13"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_0913" type="bus" depart="33120.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_0937" type="bus" depart="34560.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="14"/>
+    </vehicle>
+    <vehicle id="bus_84_0938" type="bus" depart="34620.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_0948" type="bus" depart="35220.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_hbf_1012" type="bus" depart="36660.00" arrivalLane="1" route="r_2">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_1013" type="bus" depart="36720.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_1037" type="bus" depart="38160.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="11"/>
+    </vehicle>
+    <vehicle id="bus_84_1038" type="bus" depart="38220.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="13"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_1048" type="bus" depart="38820.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_hbf_1112" type="bus" depart="40260.00" arrivalLane="1" route="r_2">
+        <stop busStop="bs_1" duration="14"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_1113" type="bus" depart="40320.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_1137" type="bus" depart="41760.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_84_1138" type="bus" depart="41820.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_1148" type="bus" depart="42420.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_84_1208" type="bus" depart="43620.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="11"/>
+    </vehicle>
+    <vehicle id="bus_196_hbf_1212" type="bus" depart="43860.00" arrivalLane="1" route="r_2">
+        <stop busStop="bs_1" duration="13"/>
+    </vehicle>
+    <vehicle id="bus_85_sp_1213" type="bus" depart="43920.00" arrivalLane="1" route="r_1">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_85_gn_1237" type="bus" depart="45360.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="14"/>
+    </vehicle>
+    <vehicle id="bus_84_1238" type="bus" depart="45420.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="12"/>
+    </vehicle>
+    <vehicle id="bus_196_bd_1248" type="bus" depart="46020.00" arrivalLane="1" route="r_6">
+        <stop busStop="bs_0" duration="15"/>
+    </vehicle>
+    <vehicle id="bus_84_1248" type="bus" depart="46020.00" arrivalLane="1" route="r_3">
+        <stop busStop="bs_1" duration="15"/>
+    </vehicle>
+</routes>

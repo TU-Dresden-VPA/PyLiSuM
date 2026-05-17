@@ -7,8 +7,8 @@ Development of PyLiSuM was supported by Work Package 5, "Upgrading of the Infras
 ## Requirements
 
 - Java 8 (JDK or JRE)
-- Python 3.10 or higher
-- SUMO 1.22 or higher
+- Python 3.10.xx or higher
+- SUMO 1.22.xx or higher
 
 ### Java 8 Installation
 
@@ -74,7 +74,7 @@ All raw traffic data and files were processed within the framework of the ABSOLU
 
 ## Third-Party Components
 
-This repository includes OMLFGServer binaries required for executing LISA+<sup>®</sup> signal control logic. These files were obtained from the public <a href="https://github.com/maxidigital/LisumExamples/tree/master" target="_blank" rel="noopener noreferrer">maxidigital/LisumExamples</a> repository, which is referenced from the SUMO documentation.
+This repository includes OMLFGServer binaries required for executing LISA+<sup>®</sup> signal control logic. These files were obtained from the public <a href="https://github.com/maxidigital/LisumExamples/tree/master" target="_blank" rel="noopener noreferrer">maxidigital/LisumExamples</a> repository, which is referenced from the <a href="https://sumo.dlr.de/docs/Tools/LiSuM.html" target="_blank" rel="noopener noreferrer">SUMO documentation</a>.
 
 OMLFGServer is third-party software and is not developed or maintained by the PyLiSuM project team. All rights in OMLFGServer and related binary files remain with their respective owners. PyLiSuM uses OMLFGServer only as an external runtime component.
 

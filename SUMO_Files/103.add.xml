@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-02T20:27:39.758582+00:00 by Eclipse SUMO netedit 1.25.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_0" name="Messeverwaltung" lane="E7_1" startPos="1.53" endPos="15.53" friendlyPos="1" lines="84,85,196" personCapacity="10"/>
+    <busStop id="bs_1" name="Messeverwaltung" lane="E22_1" startPos="22.39" endPos="32.44" friendlyPos="1" lines="84,85,196" personCapacity="10"/>
+    <!-- Detectors -->
+    <laneAreaDetector id="DMP11" name="DMP11" lane="E20_0" pos="7.07" length="15.00" friendlyPos="1" period="1.00" file="DMP11.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="DMP12" name="DMP12" lane="E22_1" pos="19.66" length="15.00" friendlyPos="1" period="1.00" file="DMP12.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="DMP13" name="DMP13" lane="E12_1" pos="2.20" length="15.00" friendlyPos="1" period="1.00" file="DMP13.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="DMP21" name="DMP21" lane="E4_0" pos="4.11" length="15.00" friendlyPos="1" period="1.00" file="DMP21.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="DMP22" name="DMP22" lane="E21_1" pos="0.87" length="10.00" friendlyPos="1" period="1.00" file="DMP22.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="DMP31" name="DMP31" lane="E16_0" pos="6.89" length="15.00" friendlyPos="1" period="1.00" file="DMP31.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="DMP32" name="DMP32" lane="E21_1" pos="1.49" length="10.00" friendlyPos="1" period="1.00" file="DMP32.xml" vTypes="bus" show="0"/>
+    <laneAreaDetector id="IS11" lane="E23_1" pos="1.31" length="4.00" friendlyPos="1" period="1.00" file="IS11.xml"/>
+    <laneAreaDetector id="IS12" lane="E23_1" pos="12.08" length="4.00" friendlyPos="1" period="1.00" file="IS12.xml"/>
+    <laneAreaDetector id="IS13" lane="E23_2" pos="1.24" length="4.00" friendlyPos="1" period="1.00" file="IS13.xml"/>
+    <laneAreaDetector id="IS14" lane="E23_2" pos="12.18" length="4.00" friendlyPos="1" period="1.00" file="IS14.xml"/>
+    <laneAreaDetector id="IS21" lane="E5_1" pos="28.34" length="4.00" friendlyPos="1" period="1.00" file="IS21.xml"/>
+    <laneAreaDetector id="IS31" lane="E5_2" pos="23.98" length="4.00" friendlyPos="1" period="1.00" file="IS31.xml"/>
+    <laneAreaDetector id="IS32" lane="E5_3" pos="23.91" length="4.00" friendlyPos="1" period="1.00" file="IS32.xml"/>
+    <laneAreaDetector id="IS41" lane="E18_0" pos="26.29" length="4.00" friendlyPos="1" period="1.00" file="IS41.xml"/>
+    <laneAreaDetector id="IS42" lane="E18_1" pos="26.05" length="4.00" period="1.00" file="IS42.xml"/>
+    <laneAreaDetector id="IS51" lane="E18_2" pos="30.33" length="4.00" friendlyPos="1" period="1.00" file="IS51.xml"/>
+    <laneAreaDetector id="IS52" lane="E18_2" pos="49.49" length="4.00" friendlyPos="1" period="1.00" file="IS52.xml"/>
+    <laneAreaDetector id="SK1" name="SK1" lane="E23_1" pos="9.75" length="6.00" friendlyPos="1" period="1.00" file="SK1.xml" vTypes="shuttle" show="0"/>
+</additional>
