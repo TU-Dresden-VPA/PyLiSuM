@@ -1,0 +1,29 @@
+-- =================================================
+-- LISA_VISSIM.WTT: Wert-Typ-Tabelle für LISA+ V1.03
+-- Repariert von LK 2014-05-19
+-- =================================================
+
+LDP  LANG "Zustand Phase"   KURZ "Phase"            KFG "PHA_ZUST"
+     LBOX "Zustand Phase"   KATEGORIE "PHA Nr."     NUMMER VON 1 BIS 999
+     CODE 30001             FALLS 0 "*"
+                            FALLS 1 "|"
+                            FALLS 3 "|"
+                            FALLS 4 "I"
+                            FALLS 5 "|"
+                            FALLS 6 "I"
+                            FALLS 7 "|"
+
+LDP  LANG "Variable Nr."    KURZ "Var"              KFG "VARIABLE"
+     LBOX "Variable"        KATEGORIE "VAR Nr."     NUMMER VON 1 BIS 999
+     CODE 30101             ZAHL VON -2147483647 BIS 2147483647	
+
+SZP  LANG "Zustand Phase"   KURZ "Phase"            KFG "PHA_ZUST"
+     LBOX "Zustand Phase"   KATEGORIE "PHA Nr."     NUMMER VON 1 BIS 999
+     CODE 30001             FALLS 0 FLAECHE WEISS
+                            FALLS 1 FLAECHE SCHWARZ
+                            FALLS 3 FLAECHE SCHWARZ
+                            FALLS 4 FLAECHE GRAU
+                            FALLS 5 FLAECHE SCHWARZ
+                            FALLS 6 FLAECHE GRAU
+                            FALLS 7 FLAECHE SCHWARZ
+

@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Java runtime
+Java_8/*
+!Java_8/.gitkeep
+
+# Log
+PyLiSuM_Log/*
+!PyLiSuM_Log/.gitkeep
+
+# Simulation
+SUMO_Files/DMP11.xml
+SUMO_Files/DMP12.xml
+SUMO_Files/DMP13.xml
+SUMO_Files/DMP21.xml
+SUMO_Files/DMP22.xml
+SUMO_Files/DMP31.xml
+SUMO_Files/DMP32.xml
+SUMO_Files/IS11.xml
+SUMO_Files/IS12.xml
+SUMO_Files/IS13.xml
+SUMO_Files/IS14.xml
+SUMO_Files/IS21.xml
+SUMO_Files/IS31.xml
+SUMO_Files/IS32.xml
+SUMO_Files/IS41.xml
+SUMO_Files/IS42.xml
+SUMO_Files/IS51.xml
+SUMO_Files/IS52.xml
+SUMO_Files/SK1.xml
