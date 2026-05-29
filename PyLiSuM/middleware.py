@@ -302,7 +302,7 @@ class LisaInterfaceManager:
             java_args = ["nohup", java_exec]
         else:
             java_args = [java_exec]
-        java_args.extend(["-jar", "-Xmx1024m", "-Xms512m", jar_path])
+        java_args.extend(["-Xmx1024m", "-Xms512m", "-jar", jar_path])
         return java_args
 
     @staticmethod
