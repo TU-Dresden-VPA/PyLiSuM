@@ -74,6 +74,29 @@ All raw traffic data and files were processed within the framework of the ABSOLU
 
 ---
 
+## Citation
+
+PyLiSuM was developed and applied within a digital twin of. If you use PyLiSuM in academic work, or if you would like to see how PyLiSuM is used in a digital twin application, please cite:
+
+> Zhou, M. R., Yang, M., Pape, S., Wang, M. (2026). Digital twin as regulatory sandbox for intersection-level traffic management and infrastructure decision-making: A case study in Leipzig, Germany. *Transportation Research Part C: Emerging Technologies*, 193, 105918. <a href="https://doi.org/10.1016/j.trc.2026.105918" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.trc.2026.105918</a>
+
+```bibtex
+@article{Zhou2026DigitalTwin,
+  title   = {Digital twin as regulatory sandbox for intersection-level traffic management
+             and infrastructure decision-making: A case study in Leipzig, Germany},
+  author  = {Zhou, Markus Runhao and Yang, Menglin and Pape, Sebastian and Wang, Meng},
+  journal = {Transportation Research Part C: Emerging Technologies},
+  volume  = {193},
+  pages   = {105918},
+  year    = {2026},
+  issn    = {0968-090X},
+  doi     = {10.1016/j.trc.2026.105918},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0968090X26004043}
+}
+```
+
+---
+
 ## Third-Party Components
 
 This repository includes OMLFGServer binaries required for running LISA+<sup>®</sup> signal control logic. These files were obtained from the public <a href="https://github.com/maxidigital/LisumExamples/tree/master" target="_blank" rel="noopener noreferrer">maxidigital/LisumExamples</a> repository, which is referenced from the <a href="https://sumo.dlr.de/docs/Tools/LiSuM.html" target="_blank" rel="noopener noreferrer">SUMO documentation</a>.
